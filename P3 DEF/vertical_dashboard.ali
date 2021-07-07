@@ -1,0 +1,199 @@
+V "GNAT Lib v7"
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U vertical_dashboard%b	vertical_dashboard.adb	3c762a7e NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U vertical_dashboard%s	vertical_dashboard.ads	c891e749 EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-charac.ads		20070912115821 2d3ec45b ada.characters%s
+D a-chlat1.ads		20140225151544 66457d31 ada.characters.latin_1%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-finali.ads		20151020095656 bf4f806b ada.finalization%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-string.ads		20070406091342 90ac6797 ada.strings%s
+D a-strmap.ads		20140611123156 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20161012122725 ecdfa332 ada.strings.unbounded%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-atocou.ads		20151020101020 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-finmas.ads		20151016130316 7811a767 system.finalization_masters%s
+D s-finroo.ads		20120426095924 4ff27390 system.finalization_root%s
+D s-memory.ads		20160622104833 597d6634 system.memory%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-secsta.ads		20170112134946 9751b57e system.secondary_stack%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stalib.adb		20140225151139 f2fe2716 system.standard_library%b
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20131010103753 b16154c2 system.storage_pools%s
+D s-stposu.ads		20151020120548 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20131014135145 aedef97e system.stream_attributes%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+D vertical_dashboard.ads  20191202112458 7a66cc9e vertical_dashboard%s
+D vertical_dashboard.adb  20191202092858 f4e7cd37 vertical_dashboard%b
+X 1 ada.ads
+16K9*Ada 20e8 37|1r6 2r6 3r6 6r29 38|1r6 2r6 3r6 6r30 187r106 188r65 190r106
+. 191r65
+X 2 a-charac.ads
+16K13*Characters 18e19 37|3r10 38|3r10 187r110 188r69 190r110 191r69
+X 3 a-chlat1.ads
+18K24*Latin_1 296e27 37|3w21 38|3w21 187r121 188r80 190r121 191r80
+53e4*ESC{character} 38|187r129 188r88 190r129 191r88
+X 8 a-string.ads
+16K13*Strings 35e16 37|2r10 6r33 38|2r10
+X 10 a-strunb.ads
+76K21*Unbounded 490e26 37|2w18 6r41 38|2w18
+79R9*Unbounded_String<5|43R9> 474e14 37|23r69 38|8r22 178r69 179r28
+94V13*To_Unbounded_String{79R9} 38|184s78 187s86 190s86
+119V14*"&"{79R9} 38|184s72 187s80 190s80
+131V14*"&"{79R9} 38|195s56
+X 12 a-textio.ads
+49K13*Text_IO 471e16 37|1w10 38|1w10 6r34
+X 16 system.ads
+67M9*Address
+X 23 s-memory.ads
+53V13*Alloc{16|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{16|67M9} 105i<c,__gnat_realloc>22
+X 29 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 37 vertical_dashboard.ads
+5K9*Vertical_Dashboard 29l5 29e23 38|5b14 200l5 200t23
+6K17*ASU=6:41 23r65 38|8r18 178r65 179r24 184r74 187r82 190r82
+8X9*Column_Full 38|161r31
+9i9*Max_Players{integer} 12r50
+10i9*Max_Column{integer} 19r38 19r52
+12I17*Player_Range{integer} 15r25
+14R14*Box 17e19 19r67 38|11r44
+15i17*Player{12I17} 38|13r42 167m63 186r67
+16b17*Empty{boolean} 38|13r30 137r65 149r62 166r58 168m63 183r59
+19A14*Board_Type(14R14)<integer><integer> 21r50 23r46 25r47 38|16r47 39r49
+. 62r58 93r58 124r47 129r43 135r47 140r50 155r47 178r46
+21V18*Dashboard_Is_Full{boolean} 21>36 38|140b18 153l13 153t30
+21a36 Dashboard{19A14} 38|140b36 148r45 149r40
+23V18*Dashboard_To_US{10|79R9} 23>35 38|178b18 198l13 198t28
+23a35 Dashboard{19A14} 38|178b35 181r31 182r42 183r36 186r44
+25U19*Put_Token 25=29 26>17 27>17 28<17 38|155b19 176l13 176t22
+25a29 Dashboard{19A14} 38|155b29 160r35 164r32 165r53 166r36 167m41 168m41
+. 174r46
+26i17 Column{integer} 38|155b59 160r46 166r50 167r55 168r55 174r62
+27i17 Player{integer} 38|156b17 167r73 174r70
+28b17 Winner{boolean} 38|156b37 174m25
+X 38 vertical_dashboard.adb
+6K17 ATIO=6:34
+11V18 Box_Contains_Player{boolean} 11b18 11>38 11>49 14l13 14t32 26s28 49s28
+. 79s28 110s28
+11r38 B{37|14R14} 13r28 13r40
+11i49 Player{integer} 13r51
+16V18 Has_4_Vertical{boolean} 16b18 16>33 16>59 17>17 17>37 37l13 37t27 132s25
+16a33 Dashboard{37|19A14} 23r28 25r50 26r48
+16i59 Row{integer}
+17i17 Column{integer} 26r67
+17i37 Player{integer} 26r76
+18i17 Tokens{natural} 22m17 25r23 27m33 27r43 29m33 31r28 36r24
+19i17 Row_Aux{integer} 23m17 25r39 26r58 34m25 34r36
+20b17 Has_4{boolean} 24m17 32m33
+39V18 Has_4_Horizontal{boolean} 39b18 39>35 39>61 40>17 40>37 60l13 60t29
+. 131s76
+39a35 Dashboard{37|19A14} 47r31 48r53 49r48
+39i61 Row{integer} 49r58
+40i17 Column{integer}
+40i37 Player{integer} 49r76
+41i17 Tokens{natural} 46m17 48r23 50m33 50r43 52m33 54r28 59r24
+42i17 Column_Aux{integer} 47m17 48r39 49r63 57m25 57r39
+43b17 Has_4{boolean} 45m17 55m33
+62V18 Has_4_Diagonal_Up_Down_LR{boolean} 62b18 62>44 62>70 63>17 63>37 91l13
+. 91t38 126s24
+62a44 Dashboard{37|19A14} 73r33 73r69 78r50 78r86 79r48
+62i70 Row{integer} 69r28
+63i17 Column{integer} 70r31
+63i37 Player{integer} 79r80
+64i17 Tokens{natural} 71m17 78r23 80m33 80r43 82m33 84r28 90r24
+65i17 Row_Aux{integer} 69m17 73r23 74m25 74r36 78r39 79r58 87m25 87r36
+66i17 Column_Aux{integer} 70m17 73r56 75m25 75r39 78r72 79r67 88m25 88r39
+67b17 Has_4{boolean} 72m17 85m33
+93V18 Has_4_Diagonal_Up_Down_RL{boolean} 93b18 93>44 93>70 94>17 94>37 122l13
+. 122t38 126s87
+93a44 Dashboard{37|19A14} 104r33 104r69 109r50 109r86 110r48
+93i70 Row{integer} 100r28
+94i17 Column{integer} 101r31
+94i37 Player{integer} 110r80
+95i17 Tokens{natural} 102m17 109r23 111m33 111r43 113m33 115r28 121r24
+96i17 Row_Aux{integer} 100m17 104r23 105m25 105r36 109r39 110r58 118m25 118r36
+97i17 Column_Aux{integer} 101m17 104r56 106m25 106r39 109r72 110r67 119m25
+. 119r39
+98b17 Has_4{boolean} 103m17 116m33
+124V18 Has_4_Diagonal{boolean} 124b18 124>33 124>59 124>76 124>96 127l13
+. 127t27 131s24
+124a33 Dashboard{37|19A14} 126r50 126r113
+124i59 Row{integer} 126r60 126r123
+124i76 Column{integer} 126r64 126r127
+124i96 Player{integer} 126r71 126r134
+129V18 The_Winner{boolean} 129b18 129>29 129>55 129>72 129>92 133l13 133t23
+. 174s35
+129a29 Dashboard{37|19A14} 131r39 131r93 132r40
+129i55 Row{integer} 131r49 131r103 132r50
+129i72 Column{integer} 131r53 131r107 132r54
+129i92 Player{integer} 131r60 131r114 132r61
+135V18 Column_Is_Full{boolean} 135b18 135>33 135>59 138l13 138t27 160s20
+135a33 Dashboard{37|19A14} 137r28 137r38
+135i59 Column{integer} 137r57
+141b17 Is_Full{boolean} 145m17 148r23 149m25 152r24
+142i17 Column{integer} 147m17 148r35 149r54 150m25 150r35
+143i17 Row{integer} 146m17 149r50
+157b17 Is_Put{boolean} 163m25 165r35 169m41
+158i17 Row{integer} 164m25 165r46 166r46 167r51 168r51 171m41 171r48 174r57
+179r9 Dashboard_Aux{10|79R9} 184m41 184r58 187m49 187r66 190m49 190r66 195m25
+. 195r42 197r24
+181i21 Row{integer} 183r46 186r54
+182i29 Column{integer} 183r51 186r59
+

@@ -1,0 +1,351 @@
+V "GNAT Lib v7"
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_NESTED_FINALIZATION
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U server_handler%b	server_handler.adb	78604d96 NE OO PK
+W abb_maps_g%s		abb_maps_g.adb		abb_maps_g.ali
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W c4_messages%s		c4_messages.ads		c4_messages.ali
+W interfaces%s		interfac.ads		interfac.ali
+W lower_layer_udp%s	lower_layer_udp.adb	lower_layer_udp.ali
+W server_game%s		server_game.adb		server_game.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.concat_4%s	s-conca4.adb		s-conca4.ali
+W system.concat_6%s	s-conca6.adb		s-conca6.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+W vertical_dashboard%s	vertical_dashboard.adb	vertical_dashboard.ali
+
+U server_handler%s	server_handler.ads	8cff048e EE OO PK
+W abb_maps_g%s		abb_maps_g.adb		abb_maps_g.ali  AD
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.unchecked_deallocation%s
+W lower_layer_udp%s	lower_layer_udp.adb	lower_layer_udp.ali
+W server_game%s		server_game.adb		server_game.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+D abb_maps_g.ads	20191130153939 35a52fb5 abb_maps_g%s
+D abb_maps_g.adb	20191130153939 2a362c12 abb_maps_g%b
+D ada.ads		20170106103348 76789da1 ada%s
+D a-charac.ads		20070912115821 2d3ec45b ada.characters%s
+D a-chlat1.ads		20140225151544 66457d31 ada.characters.latin_1%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-finali.ads		20151020095656 bf4f806b ada.finalization%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20160420090448 a87e2da7 ada.real_time%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-string.ads		20070406091342 90ac6797 ada.strings%s
+D a-strmap.ads		20140611123156 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20161012122725 ecdfa332 ada.strings.unbounded%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-taside.ads		20160420090448 c6417f71 ada.task_identification%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D a-uncdea.ads		20070406091342 f15a5ed1 ada.unchecked_deallocation%s
+D ada_sockets.ads	20080723100827 372c9145 ada_sockets%s
+D c4_messages.ads	20191130153940 012138d2 c4_messages%s
+D c_sockets.ads		20120529214139 44862f45 c_sockets%s
+D c_sockets_arch.ads	20120529194800 c328cf60 c_sockets_arch%s
+D concurrency.ads	20081111152635 d11dedce concurrency%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-c.ads		20110801143639 5421119b interfaces.c%s
+D i-cstrin.ads		20140611122922 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D keyed_lists_generic.ads  20080723100827 b050c1c0 keyed_lists_generic%s
+D lists_generic.ads	20080723100827 4cea129e lists_generic%s
+D lower_layer.ads	20080723100827 bc61d30f lower_layer%s
+D lower_layer-inet.ads	20080723100827 1d47d264 lower_layer.inet%s
+D lower_layer-inet-udp.ads  20080723100827 60f0483f lower_layer.inet.udp%s
+D lower_layer-inet-udp-uni.ads  20080723100827 c94f5d30 lower_layer.inet.udp.uni%s
+D lower_layer_udp.ads	20080723100827 ec2df04c lower_layer_udp%s
+D server_game.ads	20191202114652 192c6d83 server_game%s
+D server_handler.ads	20191202111558 899d0713 server_handler%s
+D server_handler.adb	20191202113756 9eac5a55 server_handler%b
+D system.ads		20170510173650 4635ec04 system%s
+D s-atacco.ads		20120515093410 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20151020101020 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20140225151544 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20140225151544 0b705ca5 system.concat_3%s
+D s-conca4.ads		20140225151544 7e642b20 system.concat_4%s
+D s-conca6.ads		20140225151544 d2c72db2 system.concat_6%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-finmas.ads		20151016130316 7811a767 system.finalization_masters%s
+D s-finroo.ads		20120426095924 4ff27390 system.finalization_root%s
+D s-imgint.ads		20090409150019 02dbe0c2 system.img_int%s
+D s-linux.ads		20150107101203 2fda6ad1 system.linux%s
+D s-memory.ads		20160622104833 597d6634 system.memory%s
+D s-multip.ads		20101011073009 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20190508155303 7b5577db system.os_constants%s
+D s-osinte.ads		20170314092617 ad16bc4a system.os_interface%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20151118103153 ede33ef8 system.pool_global%s
+D s-secsta.ads		20170112134946 9751b57e system.secondary_stack%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stausa.ads		20110804134155 017a0a05 system.stack_usage%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stalib.adb		20140225151139 f2fe2716 system.standard_library%b
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140801093848 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20131010103753 b16154c2 system.storage_pools%s
+D s-stposu.ads		20151020120548 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20131014135145 aedef97e system.stream_attributes%s
+D s-string.ads		20140225151139 8fe54fb7 system.strings%s
+D s-ststop.ads		20140225151139 e6693757 system.strings.stream_ops%s
+D s-tasinf.ads		20140613095942 2b3f8252 system.task_info%s
+D s-taspri.ads		20141120144719 e3ab4429 system.task_primitives%s
+D s-taprop.ads		20140521131406 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20170112134946 05d6152c system.tasking%s
+D s-taprob.ads		20170106114239 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20170106115015 60ad3dae system.tasking.protected_objects.entries%s
+D s-tassta.ads		20170112134946 5a53a7c6 system.tasking.stages%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+D unchdeal.ads		20070406091342 214516a4 unchecked_deallocation%s
+D vertical_dashboard.ads  20191202112458 7a66cc9e vertical_dashboard%s
+X 1 abb_maps_g.ads
+2+14 Key_Type 36|12r44
+3+14 Value_Type 36|13r17
+4V24 "="{boolean} 36|14r18
+5V24 "<"{boolean} 36|15r18
+6V24 ">"{boolean} 36|16r18
+7V23 Key_To_String{string} 36|17r17
+8k9*ABB_Maps_G 39e15 36|4w6 12r33 37|5w6
+9P14*Map 36|20r23[12] 37|39r64[36|12] 55r54[36|12]
+11U19*Get 37|109s34[36|12] 192s26[36|12] 260s26[36|12]
+15U19*Put 37|122s50[36|12] 128s42[36|12] 136s42[36|12] 140s42[36|12] 240s50[36|12]
+19U19*Delete 37|211s50[36|12] 224s50[36|12]
+25V18*Is_Empty{boolean} 37|43s29[36|12] 61s29[36|12]
+26V18*Get_Key{13|79R9} 37|64s46[36|12]
+27V18*Get_Value{35|20R14} 37|46s42[36|12] 65s46[36|12]
+28V18*Get_Left{9P14[36|12]} 37|50s69[36|12] 71s58[36|12]
+29V18*Get_Right{9P14[36|12]} 37|51s69[36|12] 73s66[36|12]
+X 3 ada.ads
+16K9*Ada 20e8 36|1r6 3r6 8r29 37|2r6 3r6 10r30
+X 6 a-except.ads
+54K13*Exceptions 349e19 36|3w10
+X 11 a-string.ads
+16K13*Strings 35e16 36|1r10 8r33 37|3r10
+X 13 a-strunb.ads
+76K21*Unbounded 490e26 36|1w18 8r41 37|3w18
+79R9*Unbounded_String<7|43R9> 474e14 36|12r60 37|14r22 23r99 40r29 56r35
+. 82r19 83r23 85r22 92r29 93r33 101r29 102r29 115r45 116r45 152r29 153r29
+. 158r29 169r37 182r23 184r19 185r20 187r22 190r33 203r45 204r45 205r45 216r45
+. 217r45 218r45 232r45 251r19 253r23 257r33 258r29 266r37 267r37 268r37
+84V13*Length{natural} 37|108s27
+94V13*To_Unbounded_String{79R9} 37|101s66 102s66 115s82 116s82 152s66 158s67
+. 205s82 216s82 218s83 268s75
+100V13*To_String{string} 36|17r38 37|95s35 115s136 119s88 142s78 198s51 198s85
+. 209s59 209s93 245s51 245s85 263s51
+123V14*"&"{79R9} 37|209s160
+166V14*"="{boolean} 36|14r29
+174V14*"="{boolean} 36|14r29
+178V14*"<"{boolean} 36|15r29
+202V14*">"{boolean} 36|16r29
+X 16 a-textio.ads
+49K13*Text_IO 471e16 37|2w10 10r34
+166U14*New_Line 37|106s30
+242U14*Put 37|105s30
+263U14*Put_Line 37|95s22 119s46 142s30 198s38 209s46 222s46 245s38 263s38
+X 20 c4_messages.ads
+1K9*c4_messages 13e16 37|4w6 11r28
+2E6*Message_Type 12e2 37|31r28 99r28 113r44 150r28 157r28 163r36 167r36 173r36
+. 202r44 215r44 230r44 236r44 265r36 276r30 278r32
+3n9*Join{2E6} 37|281r33
+4n9*Welcome{2E6} 37|99r61 113r77 150r61
+5n9*StartGame{2E6} 37|163r69
+6n9*Server{2E6} 37|157r61 167r69 230r77
+7n9*YourTurn{2E6} 37|173r69 236r76
+8n9*Move{2E6} 37|284r33
+9n9*MoveReceived{2E6} 37|31r65
+10n9*EndGame{2E6} 37|202r76 215r76 265r69
+11n9*Logout{2E6} 37|287r33
+X 30 lower_layer.ads
+112P9*Address_CA(110R9)
+184V14*"="{boolean} 28|30i19
+186V14*">="{boolean} 28|29i19
+X 34 lower_layer_udp.ads
+4K9*Lower_Layer_UDP 150e20 36|2w6 9r29 37|1w6
+8R12*Buffer_Type{30|58R9} 36|22r111 37|16r86 25r37 79r52 179r52 250r54 275r111
+11U14*Reset 37|30s29 98s29 112s45 149s29 156s29 162s37 166s37 172s37 196s37
+. 201s45 214s45 229s45 235s45 264s37
+23P12*End_Point_Type{30|112P9} 36|22r47 22r74 37|80r32 81r32 90r42 91r42
+. 252r32 259r42 275r47 275r74
+110U14*Send 37|19s29 33s29 103s29 117s45 154s29 170s37 174s37 233s45 237s45
+X 35 server_game.ads
+6K9*Server_Game 64e16 36|5w6 10r28 37|7w6
+20R14*C4_Game_Type 63e27 36|13r34 37|16r51 23r72 41r18 57r30 59r30 84r18
+. 183r21 254r18
+22U19*Set_Player_Info 37|121s44 127s36 135s36 138s36
+26V18*Get_Dashboard(82|19A14) 37|168s66 195s49 204s100 213s63 217s100 231s74
+. 267s93
+29V18*Get_Client_EP{34|23P12} 37|19s37 33s37 170s45 174s45 233s53 237s53
+33V18*Get_Client_Name{13|79R9} 37|198s98 203s81 209s106 245s98 266s74
+37V18*Get_Number_Players{natural} 37|18s32 67s31 111s39 158s118 161s31
+40V18*Get_Max_Players{natural} 37|67s66 111s69 158s170 161s61
+43V18*Get_Current_Turn{natural} 37|33s63 170s68 174s68 195s88 198s126 203s109
+. 209s133 233s79 237s79 245s126 266s99
+46U19*Next_Turn 37|227s44
+48V18*Nick_Duplicated{boolean} 37|49s36 262s31
+50V18*EP_Duplicated{boolean} 37|262s65
+X 36 server_handler.ads
+7K9*Server_Handler 24l5 24e19 37|9b14 295l5 295t19
+8K17*ASU=8:41 12r56 14r24 15r24 16r24 17r34 37|14r18 23r95 40r25 56r31 82r15
+. 83r19 85r18 92r25 93r29 95r31 101r25 101r62 102r25 102r62 108r23 115r41
+. 115r78 115r132 116r41 116r78 119r84 142r74 152r25 152r62 153r25 158r25
+. 158r63 169r33 182r19 184r15 185r16 187r18 190r29 198r47 198r81 203r41 204r41
+. 205r41 205r78 209r55 209r89 216r41 216r78 217r41 218r41 218r79 232r41 245r47
+. 245r81 251r15 253r19 257r29 258r25 263r47 266r33 267r33 268r33 268r71
+9K17*LLU=9:29 22r43 22r70 22r107 37|16r82 19r25 25r33 30r25 33r25 79r48 80r28
+. 81r28 90r38 91r38 98r25 103r25 112r41 117r41 149r25 154r25 156r25 162r33
+. 166r33 170r33 172r33 174r33 179r48 196r33 201r41 214r41 229r41 233r41 235r41
+. 237r41 250r50 252r28 259r38 264r33 275r43 275r70 275r107
+10K17*SG=10:28 13r31 37|16r48 18r29 19r34 23r69 33r34 33r60 41r15 49r33 57r27
+. 59r27 67r28 67r63 84r15 111r36 111r66 121r41 127r33 135r33 138r33 158r115
+. 158r167 161r28 161r58 168r63 170r42 170r65 174r42 174r65 183r18 195r46
+. 195r85 198r95 198r123 203r78 203r106 204r97 209r103 209r130 213r60 217r97
+. 227r41 231r71 233r50 233r76 237r50 237r76 245r95 245r123 254r15 262r28
+. 262r62 266r71 266r96 267r90
+12K17*ABB_Maps[1|8] 20r14 37|39r55 43r20 46r33 50r60 51r60 55r45 61r20 64r37
+. 65r37 71r49 73r57 109r25 122r41 128r33 136r33 140r33 192r17 211r41 224r41
+. 240r41 260r17
+20p9*Map{1|9P14[12]} 37|97r47 109r38 122m54 122r54 128m46 128r46 133r41 136m46
+. 136r46 140m46 140r46 192r30 211m57 211r57 224m57 224r57 240m54 240r54 260r30
+22U19*Server_Handler 22>34 22>63 22^90 37|275b19 294l13 294t27
+22p34 From{34|23P12} 37|275b34
+22p63 To{34|23P12} 37|275b63
+22p90 P_Buffer(34|8R12) 37|275b90 278r51 282r45 285r45 288r47
+X 37 server_handler.adb
+10K17 ATIO=10:34 95r17 105r25 106r25 119r41 142r25 198r33 209r41 222r41 245r33
+. 263r33
+11K17 CM=11:28 31r25 31r62 99r25 99r58 113r41 113r74 150r25 150r58 157r25
+. 157r58 163r33 163r66 167r33 167r66 173r33 173r66 202r41 202r73 215r41 215r73
+. 230r41 230r74 236r41 236r73 265r33 265r66 276r27 278r29 281r30 284r30 287r30
+12K17 VD=12:28 168r44 195r33 204r78 213r39 217r78 231r52 267r71
+16U19 Send_All_Players 16b19 16>36 16^65 21l13 21t29 159s25 164s33 207s41
+. 220s41 270s33
+16r36 C4_Game{35|20R14} 18r51 19r51
+16p65 P_Buffer(34|8R12) 19r63
+18i21 I{integer} 19r60
+23U19 Column_Error 23b19 23=32 23>57 23>86 37l13 37t25 244s33
+23i32 Column{positive} 28r20
+23r57 C4_Game{35|20R14} 33r51 33r80
+23r86 Nick{13|79R9}
+24b17 Move_Ok{boolean} 27m17 29m25 35m25
+25r17 Buffer{34|8R12} 30m35 30r35 31m48 31r48 32m40 32r40 33m91 33r91
+39V18 Client_Nick_Already_Exists{boolean} 39b18 39>45 40>9 50s33 51s33 53l13
+. 53t39 97s20
+39p45 Games{1|9P14[36|12]} 43r38 46r52 50r78 51r79
+40r9 Client_Nick{13|79R9} 49r58 50r86 51r87
+41r9 Game{35|20R14} 46m25 46r25 49r52
+55U19 Game_With_Break 55b19 55>35 56<17 57<17 58<17 71s33 73s41 77l13 77t28
+. 133s25
+55p35 Games{1|9P14[36|12]} 61r38 64r54 65r56 71r67 73r76
+56r17 Game_Key{13|79R9} 64m25 71m75 73m84
+57r17 Game{35|20R14} 69m33 71m85 73m94
+58b17 Found{boolean} 62m25 68m33 71m91 72r40 73m100
+59r17 Game_Aux{35|20R14} 65m25 65r25 67r50 67r82 69r41
+79U19 Handle_Join 79b19 79^31 177l13 177t24 282s33
+79p31 P_Buffer(34|8R12) 90r63 91r63 92r52 93r56 98r35 99r48 100r40 101r53
+. 102r53 103r53 112r51 113r64 114r56 115r69 116r69 117r68 149r35 150r48 151r40
+. 152r53 153r53 154r53 156r35 157r48 158r53 159r49 162r43 163r56 164r57 166r43
+. 167r56 169r61 170r93 172r43 173r56 174r92
+80p9 Client_EP_Handler{34|23P12} 91m17 121r70 127r62 135r62 138r62
+81p9 Client_EP_Receive{34|23P12} 90m17 103r34 117r50 154r34
+82r9 Nick{13|79R9} 92m17 95r45 97r52 121r65 127r57 135r57 138r57 139r45
+83r9 Game_Key{13|79R9} 93m17 108r34 109r42 115r146 119r98 122r58 128r50 133m46
+. 136r50 139m33 140r50 142r88 153r62
+84r9 Game{35|20R14} 109m51 111r58 111r85 121m60 121r60 122r67 127m52 127r52
+. 128r59 133m56 135m52 135r52 136r59 138m52 138r52 140r59 158r137 158r186
+. 159r43 161r50 161r77 164r51 168r80 170r59 170r85 174r59 174r85
+85r9 Message{13|79R9} 168m33 169r71
+86b9 Found{boolean} 133m62 134r28
+87b9 Added_To_Game{boolean} 96m17 124m41 130m33 144m25 147r20
+88b9 Success{boolean} 109m56 110r28
+179U19 Handle_Move 179b19 179^31 248l13 248t24 285s33
+179p31 P_Buffer(34|8R12) 189r41 190r56 196r43 201r51 202r64 203r69 204r69
+. 205r69 206r56 207r66 214r51 215r64 216r69 217r69 218r69 219r56 220r66 229r51
+. 230r64 232r69 233r107 235r51 236r64 237r107
+180b9 Winner{boolean} 195m115 200r36
+181i9 Column{natural} 189m17 194r28 194r44 195r77 198r183 244m46 244r46 245r183
+182r9 Game_Key{13|79R9} 190m17 192r34 198r61 209r69 211r61 224r61 240r58
+. 245r61
+183r9 C4_Game{35|20R14} 192m43 195r63 195r105 198r114 198r143 203r97 203r126
+. 204r114 207r58 209r122 209r150 213r77 217r114 220r58 227m54 227r54 231r88
+. 233r67 233r96 237r67 237r96 240r67 244r54 245r114 245r143
+184r9 Nick{13|79R9} 244r63
+185r9 Value{13|79R9}
+186b9 Success{boolean} 192m51 193r20 211m70 224m70
+187r9 Message{13|79R9} 231m41 232r79
+250U19 Handle_Logout 250b19 250^33 273l13 273t26 288s33
+250p33 P_Buffer(34|8R12) 257r56 258r52 259r63 264r43 265r56 266r61 267r61
+. 268r61 269r48 270r58
+251r9 Nick{13|79R9} 258m17 262r52 263r61
+252p9 Client_EP_Handler{34|23P12} 259m17 262r84
+253r9 Game_Key{13|79R9} 257m17 260r34
+254r9 Game{35|20R14} 260m43 262r47 262r79 266r90 266r116 267r107 270r51
+255b9 Success{boolean} 260m48 261r20
+276e17 Response{20|2E6} 278m17 280r22
+X 38 system.ads
+67M9*Address
+X 52 s-memory.ads
+53V13*Alloc{38|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{38|67M9} 105i<c,__gnat_realloc>22
+X 61 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 63 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 82 vertical_dashboard.ads
+5K9*Vertical_Dashboard 37|6w6 12r28 82|29e23
+19A14*Board_Type(14R14)<integer><integer>
+21V18*Dashboard_Is_Full{boolean} 37|213s42
+23V18*Dashboard_To_US{13|79R9} 37|168s47 204s81 217s81 231s55 267s74
+25U19*Put_Token 37|195s36
+

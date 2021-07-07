@@ -1,0 +1,191 @@
+V "GNAT Lib v7"
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_ANONYMOUS_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U server_game%b		server_game.adb		e272521c NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W lower_layer_udp%s	lower_layer_udp.adb	lower_layer_udp.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W vertical_dashboard%s	vertical_dashboard.adb	vertical_dashboard.ali
+
+U server_game%s		server_game.ads		36560179 EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W lower_layer_udp%s	lower_layer_udp.adb	lower_layer_udp.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W vertical_dashboard%s	vertical_dashboard.adb	vertical_dashboard.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-charac.ads		20070912115821 2d3ec45b ada.characters%s
+D a-chlat1.ads		20140225151544 66457d31 ada.characters.latin_1%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-finali.ads		20151020095656 bf4f806b ada.finalization%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20160420090448 a87e2da7 ada.real_time%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-string.ads		20070406091342 90ac6797 ada.strings%s
+D a-strmap.ads		20140611123156 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20161012122725 ecdfa332 ada.strings.unbounded%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-taside.ads		20160420090448 c6417f71 ada.task_identification%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D ada_sockets.ads	20080723100827 372c9145 ada_sockets%s
+D c_sockets.ads		20120529214139 44862f45 c_sockets%s
+D c_sockets_arch.ads	20120529194800 c328cf60 c_sockets_arch%s
+D concurrency.ads	20081111152635 d11dedce concurrency%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-c.ads		20110801143639 5421119b interfaces.c%s
+D i-cstrin.ads		20140611122922 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D keyed_lists_generic.ads  20080723100827 b050c1c0 keyed_lists_generic%s
+D lists_generic.ads	20080723100827 4cea129e lists_generic%s
+D lower_layer.ads	20080723100827 bc61d30f lower_layer%s
+D lower_layer-inet.ads	20080723100827 1d47d264 lower_layer.inet%s
+D lower_layer-inet-udp.ads  20080723100827 60f0483f lower_layer.inet.udp%s
+D lower_layer-inet-udp-uni.ads  20080723100827 c94f5d30 lower_layer.inet.udp.uni%s
+D lower_layer_udp.ads	20080723100827 ec2df04c lower_layer_udp%s
+D server_game.ads	20191110090204 4cc29e99 server_game%s
+D server_game.adb	20191110090203 fd3d41b0 server_game%b
+D system.ads		20170510173650 4635ec04 system%s
+D s-atacco.ads		20120515093410 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20151020101020 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-finmas.ads		20151016130316 7811a767 system.finalization_masters%s
+D s-finroo.ads		20120426095924 4ff27390 system.finalization_root%s
+D s-linux.ads		20150107101203 2fda6ad1 system.linux%s
+D s-memory.ads		20160622104833 597d6634 system.memory%s
+D s-multip.ads		20101011073009 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20190508155303 7b5577db system.os_constants%s
+D s-osinte.ads		20170314092617 ad16bc4a system.os_interface%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20151118103153 ede33ef8 system.pool_global%s
+D s-secsta.ads		20170112134946 9751b57e system.secondary_stack%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stausa.ads		20110804134155 017a0a05 system.stack_usage%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stalib.adb		20140225151139 f2fe2716 system.standard_library%b
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20131010103753 b16154c2 system.storage_pools%s
+D s-stposu.ads		20151020120548 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20131014135145 aedef97e system.stream_attributes%s
+D s-tasinf.ads		20140613095942 2b3f8252 system.task_info%s
+D s-taspri.ads		20141120144719 e3ab4429 system.task_primitives%s
+D s-taprop.ads		20140521131406 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20170112134946 05d6152c system.tasking%s
+D s-taprob.ads		20170106114239 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20170106115015 60ad3dae system.tasking.protected_objects.entries%s
+D s-tassta.ads		20170112134946 5a53a7c6 system.tasking.stages%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+D unchdeal.ads		20070406091342 214516a4 unchecked_deallocation%s
+D vertical_dashboard.ads  20191110090203 7a66cc9e vertical_dashboard%s
+X 1 ada.ads
+16K9*Ada 20e8 31|1r6 6r29 32|1r6 2r6 7r28
+X 4 a-except.ads
+54K13*Exceptions 349e19 32|2w10 7r32
+X 9 a-string.ads
+16K13*Strings 35e16 31|1r10 6r33 32|1r10
+X 11 a-strunb.ads
+76K21*Unbounded 490e26 31|1w18 6r41 32|1w18
+79R9*Unbounded_String<5|43R9> 474e14 31|13r27 22r46 35r44 32|9r22 11r78 43r88
+166V14*"="{boolean} 32|16s56
+X 26 lower_layer.ads
+112P9*Address_CA(110R9)
+184V14*"="{boolean} 24|30i19
+186V14*">="{boolean} 24|29i19
+X 30 lower_layer_udp.ads
+4K9*Lower_Layer_UDP 150e20 31|2w6 7r29 32|3w6
+23P12*End_Point_Type{26|112P9} 31|14r25 23r44 31r44 32|11r107 34r86
+X 31 server_game.ads
+5K9*Server_Game 50E22 58l5 58e16 32|6b14 75l5 75t16
+6K17*ASU=6:41 13r23 22r42 35r40 32|9r18 11r74 43r84
+7K17*LLU=7:29 14r21 23r40 31r40 32|11r103 34r82
+8K17*VD=8:28 27r47 52r43 53r53 56r49 32|29r72
+10X9*Player_Exists_Error
+10X30*Player_Out_Of_Range 32|37r31 46r31
+12R14*Client_Type 15e19 17r51
+13r17*Nick{11|79R9} 32|16r51 24m70 48r60
+14p17*EP{30|23P12} 32|25m70 39r60
+17A14*Array_Client_Type(12R14)<integer> 51r38
+19R14*C4_Game_Type 21r51 26r44 29r44 33r46 37r50 40r47 43r48 46r45 50c22
+. 57e27 32|11r51 29r44 34r44 43r46 52r50 57r47 62r48 67r46
+21U19*Set_Player_Info 21=35 22>33 23>33 24<33 32|11b19 27l13 27t28
+21r35 C4_Game{19R14} 32|11b35 15r43 16r28 23m25 23r52 24m25 24r25 24r45 25m25
+. 25r45
+22r33 Nick{11|79R9} 32|11b65 16r58 24r78
+23p33 EP{30|23P12} 32|11b96 25r76
+24b33 Exists{boolean} 32|11b123 14m17 15r27 17m33 22r24
+26V18*Get_Dashboard(69|19A14) 26>32 32|29b18 32l13 32t26
+26r32 C4_Game{19R14} 32|29b32 31r24
+29V18*Get_Client_EP{30|23P12} 29>32 30>33 32|34b18 41l13 41t26
+29r32 C4_Game{19R14} 32|34b32 36r43 39r32
+30i33 Client{integer} 32|34b58 36r20 36r34 39r52
+33V18*Get_Client_Name{11|79R9} 33>34 34>33 32|43b18 50l13 50t28
+33r34 C4_Game{19R14} 32|43b34 45r43 48r32
+34i33 Client{integer} 32|43b60 45r20 45r34 48r52
+37V18*Get_Number_Players{natural} 37>38 32|52b18 55l13 55t31
+37r38 C4_Game{19R14} 32|52b38 54r24
+40V18*Get_Max_Players{natural} 40>35 32|57b18 60l13 60t28
+40r35 C4_Game{19R14} 32|57b35 59r24
+43V18*Get_Current_Turn{natural} 43>36 32|62b18 65l13 65t29
+43r36 C4_Game{19R14} 32|62b36 64r24
+46U19*Next_Turn 46=29 32|67b19 74l13 74t22
+46r29 C4_Game{19R14} 32|67b30 69r20 69r44 70m25 70r49 72m25
+51a25*Player_Info{17A14} 32|16r36 24m33 25m33 39r40 48r40
+52p25*Dashboard(69|19A14) 32|31r32
+54i25*Current_Turn{natural} 32|64r32 69r28 70m33 70r57 72m33
+55i25*Current_Players{natural} 32|23m33 23r60 24r53 25r53 54r32
+56i25*Max_Players{natural} 32|15r51 36r51 45r51 59r32 69r52
+X 32 server_game.adb
+7K17 AE=7:32
+12i17 I{integer} 15r38 16r48 19m25 19r30
+X 33 system.ads
+67M9*Address
+X 42 s-memory.ads
+53V13*Alloc{33|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{33|67M9} 105i<c,__gnat_realloc>22
+X 51 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 53 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 69 vertical_dashboard.ads
+5K9*Vertical_Dashboard 31|3w6 8r28 32|4w6 69|29e23
+9i9*Max_Players{integer} 31|56r52
+19A14*Board_Type(14R14)<integer><integer> 31|27r50 52r46 53r56 32|29r75
+

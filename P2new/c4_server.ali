@@ -1,0 +1,287 @@
+V "GNAT Lib v7"
+M P W=b
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U c4_server%b		c4_server.adb		d3f03a71 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W c4_messages%s		c4_messages.ads		c4_messages.ali
+W interfaces%s		interfac.ads		interfac.ali
+W lower_layer_udp%s	lower_layer_udp.adb	lower_layer_udp.ali
+W server_game%s		server_game.adb		server_game.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.concat_4%s	s-conca4.adb		s-conca4.ali
+W system.concat_5%s	s-conca5.adb		s-conca5.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+W vertical_dashboard%s	vertical_dashboard.adb	vertical_dashboard.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-charac.ads		20070912115821 2d3ec45b ada.characters%s
+D a-chlat1.ads		20140225151544 66457d31 ada.characters.latin_1%s
+D a-comlin.ads		20140225151544 ea62afbc ada.command_line%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-finali.ads		20151020095656 bf4f806b ada.finalization%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20160420090448 a87e2da7 ada.real_time%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-string.ads		20070406091342 90ac6797 ada.strings%s
+D a-strmap.ads		20140611123156 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20161012122725 ecdfa332 ada.strings.unbounded%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-taside.ads		20160420090448 c6417f71 ada.task_identification%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D a-uncdea.ads		20070406091342 f15a5ed1 ada.unchecked_deallocation%s
+D ada_sockets.ads	20080723100827 372c9145 ada_sockets%s
+D c4_messages.ads	20191110090203 012138d2 c4_messages%s
+D c4_server.adb		20191110090203 1f914b67 c4_server%b
+D c_sockets.ads		20120529214139 44862f45 c_sockets%s
+D c_sockets_arch.ads	20120529194800 c328cf60 c_sockets_arch%s
+D concurrency.ads	20081111152635 d11dedce concurrency%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-c.ads		20110801143639 5421119b interfaces.c%s
+D i-cstrin.ads		20140611122922 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D keyed_lists_generic.ads  20080723100827 b050c1c0 keyed_lists_generic%s
+D lists_generic.ads	20080723100827 4cea129e lists_generic%s
+D lower_layer.ads	20080723100827 bc61d30f lower_layer%s
+D lower_layer-inet.ads	20080723100827 1d47d264 lower_layer.inet%s
+D lower_layer-inet-udp.ads  20080723100827 60f0483f lower_layer.inet.udp%s
+D lower_layer-inet-udp-uni.ads  20080723100827 c94f5d30 lower_layer.inet.udp.uni%s
+D lower_layer_udp.ads	20080723100827 ec2df04c lower_layer_udp%s
+D server_game.ads	20191110090204 4cc29e99 server_game%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-atacco.ads		20120515093410 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20151020101020 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20140225151544 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20140225151544 0b705ca5 system.concat_3%s
+D s-conca4.ads		20140225151544 7e642b20 system.concat_4%s
+D s-conca5.ads		20140225151544 875e432e system.concat_5%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-finmas.ads		20151016130316 7811a767 system.finalization_masters%s
+D s-finroo.ads		20120426095924 4ff27390 system.finalization_root%s
+D s-imgint.ads		20090409150019 02dbe0c2 system.img_int%s
+D s-linux.ads		20150107101203 2fda6ad1 system.linux%s
+D s-memory.ads		20160622104833 597d6634 system.memory%s
+D s-multip.ads		20101011073009 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20190508155303 7b5577db system.os_constants%s
+D s-osinte.ads		20170314092617 ad16bc4a system.os_interface%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20151118103153 ede33ef8 system.pool_global%s
+D s-secsta.ads		20170112134946 9751b57e system.secondary_stack%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stausa.ads		20110804134155 017a0a05 system.stack_usage%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stalib.adb		20140225151139 f2fe2716 system.standard_library%b
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140801093848 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20131010103753 b16154c2 system.storage_pools%s
+D s-stposu.ads		20151020120548 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20131014135145 aedef97e system.stream_attributes%s
+D s-string.ads		20140225151139 8fe54fb7 system.strings%s
+D s-ststop.ads		20140225151139 e6693757 system.strings.stream_ops%s
+D s-tasinf.ads		20140613095942 2b3f8252 system.task_info%s
+D s-taspri.ads		20141120144719 e3ab4429 system.task_primitives%s
+D s-taprop.ads		20140521131406 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20170112134946 05d6152c system.tasking%s
+D s-taprob.ads		20170106114239 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20170106115015 60ad3dae system.tasking.protected_objects.entries%s
+D s-tassta.ads		20170112134946 5a53a7c6 system.tasking.stages%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-valint.ads		20090409150019 48a52a3f system.val_int%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+D unchdeal.ads		20070406091342 214516a4 unchecked_deallocation%s
+D vertical_dashboard.ads  20191110090203 7a66cc9e vertical_dashboard%s
+X 1 ada.ads
+16K9*Ada 20e8 20|2r6 3r6 4r6 5r6 12r30 14r29 15r29 16r28
+X 4 a-comlin.ads
+38K13*Command_Line 139e21 20|3w10 14r33
+41V13*Argument_Count{natural} 20|74s16
+48V13*Argument{string} 20|78s35
+57V13*Command_Name{string} 20|242s46
+X 5 a-except.ads
+54K13*Exceptions 349e19 20|5w10 16r32
+X 10 a-string.ads
+16K13*Strings 35e16 20|4r10 15r33
+X 12 a-strunb.ads
+76K21*Unbounded 490e26 20|4w18 15r41
+79R9*Unbounded_String<6|43R9> 474e14 20|21r22 42r99 65r19 95r53 103r53 113r53
+. 126r61 132r61 139r61 153r69 162r61 179r77 180r77 181r77 190r77 191r77 192r77
+. 203r77 218r53 223r53 224r53 225r53
+94V13*To_Unbounded_String{79R9} 20|103s95 113s95 126s103 132s103 139s104
+. 181s119 190s119 192s120 223s96 224s96
+100V13*To_String{string} 20|53s43 97s59 135s75 148s83 148s143 172s83 185s91
+. 229s67
+166V14*"="{boolean} 20|99s49 165s57 220s49
+X 15 a-textio.ads
+49K13*Text_IO 471e16 20|2w10 12r34
+263U14*Put_Line 20|53s30 83s14 97s46 106s54 116s54 135s62 148s70 172s70 185s78
+. 196s78 229s54 230s54 242s22 247s22
+X 19 c4_messages.ads
+1K9*c4_messages 13e16 20|9w6 17r28
+2E6*Message_Type 12e2 20|22r21 50r28 69r22 90r40 101r52 111r52 124r60 130r60
+. 138r60 147r68 152r68 168r68 178r76 189r76 202r76 222r52
+3n9*Join{2E6} 20|92r41
+4n9*Welcome{2E6} 20|101r90 111r90 124r98 130r97
+5n9*StartGame{2E6} 20|147r105
+6n9*Server{2E6} 20|138r97
+7n9*YourTurn{2E6} 20|152r105 202r113
+8n9*Move{2E6} 20|159r41
+9n9*MoveReceived{2E6} 20|50r65 168r105
+10n9*EndGame{2E6} 20|178r113 189r113 222r89
+11n9*Logout{2E6} 20|215r41
+X 20 c4_server.adb
+11U11*c4_server 11b11 250l5 250t14
+12K17 ATIO=12:34 53r25 83r9 97r41 106r49 116r49 135r57 148r65 172r65 185r73
+. 196r73 229r49 230r49 242r17 247r17
+13K17 LLU=13:29 28r82 31r25 35r90 38r25 44r33 49r25 52r25 60r20 61r25 62r20
+. 80r22 80r32 80r42 81r9 86r17 87r17 94r54 100r49 104r49 110r49 114r49 123r57
+. 127r57 129r57 133r57 137r57 146r65 151r65 154r65 167r65 170r65 177r73 188r73
+. 201r73 204r73 217r54 221r49 243r17 248r17
+14K17 ACL=14:33 74r12 78r31 242r42
+15K17 ASU=15:41 21r18 42r95 53r39 65r15 95r49 97r55 103r49 103r91 113r49
+. 113r91 126r57 126r99 132r57 132r99 135r71 139r57 139r100 148r79 148r139
+. 153r65 162r57 172r79 179r73 180r73 181r73 181r115 185r87 190r73 190r115
+. 191r73 192r73 192r116 203r73 218r49 223r49 223r92 224r49 224r92 225r49
+. 229r63
+16K17 AE=16:32
+17K17 CM=17:28 22r18 50r25 50r62 69r19 90r37 92r38 101r49 101r87 111r49 111r87
+. 124r57 124r95 130r57 130r94 138r57 138r94 147r65 147r102 152r65 152r102
+. 159r38 168r65 168r102 178r73 178r110 189r73 189r110 202r73 202r110 215r38
+. 222r49 222r86
+18K17 VD=18:28 153r108 174r65 180r115 187r71 191r115 203r116
+19K17 SG=19:28 28r48 30r29 31r34 35r56 37r29 38r34 42r69 52r34 52r60 64r18
+. 99r51 109r44 109r77 119r44 119r77 120r49 139r152 139r206 145r60 145r93
+. 148r93 148r153 153r127 154r74 160r44 160r77 165r59 165r86 170r74 170r100
+. 174r78 174r115 180r134 187r92 191r134 199r73 203r135 204r82 204r108 220r51
+. 220r78
+24X9 Usage_Error 75r23 240r14
+26i9 N_Args{integer} 74r34
+28U19 Send_All_Players 28b19 28>36 28^65 33l13 33t29 149s65 183s73 194s73
+. 227s49
+28r36 C4_Game{35|19R14} 30r48 31r51
+28p65 P_Buffer(34|8R12) 31r63
+30i21 I{integer} 31r60
+35U19 Send_All_Player_Less_One 35b19 35>44 35^73 40l13 40t37 140s57
+35r44 C4_Game{35|19R14} 37r51 38r51
+35p73 P_Buffer(34|8R12) 38r62
+37i21 I{integer} 38r59
+42U19 Column_Error 42b19 42=32 42>57 42>86 57l13 57t25 209s65
+42i32 Column{positive} 47r20 53r88
+42r57 C4_Game{35|19R14} 52r51 52r80
+42r86 Nick{12|79R9} 53r53
+43b17 Move_Ok{boolean} 46m17 48m25 55m25
+44r17 Buffer{34|8R12} 49m35 49r35 50m48 50r48 51m40 51r40 52m91 52r91
+59i9 Port{integer} 78m9 80r62 83r59
+60p9 Server_EP{34|23P12} 80m9 81r18 87r29
+61r9 Buffer{34|8R12} 86m27 86r27 87m40 87r40 90m59 90r59 94m79 94r79 95m76
+. 95r76 100m59 100r59 101m72 101r72 102m64 102r64 103m77 103r77 104m69 104r69
+. 110m59 110r59 111m72 111r72 112m64 112r64 113m77 113r77 114m69 114r69 123m67
+. 123r67 124m80 124r80 125m72 125r72 126m85 126r85 127m76 127r76 129m67 129r67
+. 130m80 130r80 131m72 131r72 132m85 132r85 133m76 133r76 137m67 137r67 138m80
+. 138r80 139m85 139r85 140m90 140r90 146m75 146r75 147m88 147r88 149m90 149r90
+. 151m75 151r75 152m88 152r88 153m93 153r93 154m103 154r103 162m84 162r84
+. 163m74 163r74 167m75 167r75 168m88 168r88 169m80 169r80 170m131 170r131
+. 177m83 177r83 178m96 178r96 179m101 179r101 180m101 180r101 181m101 181r101
+. 182m88 182r88 183m98 183r98 188m83 188r83 189m96 189r96 190m101 190r101
+. 191m101 191r101 192m101 192r101 193m88 193r88 194m98 194r98 201m83 201r83
+. 202m96 202r96 203m101 203r101 204m139 204r139 217m79 217r79 218m76 218r76
+. 221m59 221r59 222m72 222r72 223m77 223r77 224m77 224r77 225m77 225r77 226m64
+. 226r64 227m74 227r74
+62p9 Client_EP{34|23P12} 94m41 104r58 114r58 120r81 127r66 133r66 217m41
+63b9 Expired{boolean} 87m61 89r24
+64r9 C4_Game{35|19R14} 99r70 109r66 109r96 119r66 119r96 120m68 120r68 139r174
+. 139r225 140r82 145r82 145r112 148r112 148r172 149r82 153r144 154r91 160r66
+. 160r96 165r78 165r106 170r91 170r120 174r95 174r135 180r151 183r90 187r109
+. 191r151 194r90 199m86 199r86 203r152 204r99 204r128 209r86 220r70 220r98
+. 227r66
+65r9 Nick{12|79R9} 95m41 97r69 99r44 120r76 135r85 162m49 165r52 172r93 179r115
+. 185r101 209r95 218m41 220r44 225r92 229r77
+66b9 Winner{boolean} 174m144 176r68
+67b9 Exists{boolean} 120m91 122r52
+68i9 Column{positive} 163m49 166r60 166r76 172r128 174r108 209m78 209r78
+69e9 Response{19|2E6} 90m25 91r30
+71b9 Game_Starts{boolean} 93m41 142m57
+X 30 lower_layer.ads
+112P9*Address_CA(110R9)
+184V14*"="{boolean} 28|30i19
+186V14*">="{boolean} 28|29i19
+X 34 lower_layer_udp.ads
+4K9*Lower_Layer_UDP 20|1w6 13r29 34|150e20
+8R12*Buffer_Type{30|58R9} 20|28r86 35r94 44r37 61r29
+11U14*Reset 20|49s29 86s21 100s53 110s53 123s61 129s61 137s61 146s69 151s69
+. 167s69 177s77 188s77 201s77 221s53
+23P12*End_Point_Type{30|112P9} 20|60r24 62r24 94r58 217r58
+46V13*Build{23P12} 20|80s26
+52V13*To_IP{string} 20|80s36
+55V13*Get_Host_Name{string} 20|80s46
+64U14*Bind 20|81s13
+110U14*Send 20|31s29 38s29 52s29 104s53 114s53 127s61 133s61 154s69 170s69
+. 204s77
+124U14*Receive 20|87s21
+148U14*Finalize 20|243s21 248s21
+X 35 server_game.ads
+5K9*Server_Game 20|8w6 19r28 35|58e16
+19R14*C4_Game_Type 20|28r51 35r59 42r72 64r21 35|57e27
+21U19*Set_Player_Info 20|120s52
+26V18*Get_Dashboard(81|19A14) 20|153s130 174s81 180s137 187s95 191s137 203s138
+29V18*Get_Client_EP{34|23P12} 20|31s37 38s37 52s37 154s77 170s77 204s85
+33V18*Get_Client_Name{12|79R9} 20|99s54 148s96 148s156 165s62 220s54
+37V18*Get_Number_Players{natural} 20|37s32 109s47 119s47 139s155 145s63 160s47
+40V18*Get_Max_Players{natural} 20|30s32 109s80 119s80 139s209 145s96 160s80
+43V18*Get_Current_Turn{natural} 20|52s63 165s89 170s103 174s118 204s111 220s81
+46U19*Next_Turn 20|199s76
+X 36 system.ads
+67M9*Address
+X 50 s-memory.ads
+53V13*Alloc{36|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{36|67M9} 105i<c,__gnat_realloc>22
+X 59 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 61 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 81 vertical_dashboard.ads
+5K9*Vertical_Dashboard 20|7w6 18r28 81|29e23
+19A14*Board_Type(14R14)<integer><integer>
+21V18*Dashboard_Is_Full{boolean} 20|187s74
+23V18*Dashboard_To_US{12|79R9} 20|153s111 180s118 191s118 203s119
+25U19*Put_Token 20|174s68
+

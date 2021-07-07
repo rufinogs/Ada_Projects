@@ -1,0 +1,22 @@
+V "GNAT Lib v7"
+P ZX
+
+RN
+
+U c4_messages%s		c4_messages.ads		012138d2 NE OO PK IL
+
+D c4_messages.ads	20191130153940 012138d2 c4_messages%s
+D system.ads		20170510173650 4635ec04 system%s
+X 1 c4_messages.ads
+1K9*c4_messages 13l5 13e16
+2E6*Message_Type 12e2
+3n9*Join{2E6}
+4n9*Welcome{2E6}
+5n9*StartGame{2E6}
+6n9*Server{2E6}
+7n9*YourTurn{2E6}
+8n9*Move{2E6}
+9n9*MoveReceived{2E6}
+10n9*EndGame{2E6}
+11n9*Logout{2E6}
+

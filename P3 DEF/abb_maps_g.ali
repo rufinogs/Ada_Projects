@@ -1,0 +1,114 @@
+V "GNAT Lib v7"
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U abb_maps_g%b		abb_maps_g.adb		d6a4a8a2 NE OO PK GE IU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_deallocation%s
+
+U abb_maps_g%s		abb_maps_g.ads		35a52fb5 BN EE NE OO PK GE
+
+D abb_maps_g.ads	20191130153939 35a52fb5 abb_maps_g%s
+D abb_maps_g.adb	20191130153939 2a362c12 abb_maps_g%b
+D ada.ads		20170106103348 76789da1 ada%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D a-uncdea.ads		20070406091342 f15a5ed1 ada.unchecked_deallocation%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 abb_maps_g.ads
+2+14 Key_Type 4r36 5r36 6r36 7r41 12r25 16r25 20r25 26r44 34r22 2|8r25 25r25
+. 40r26 60r25 63r26 108r44
+3+14 Value_Type 12r46 17r27 27r46 35r24 2|9r28 26r27 41r28 64r28 113r46
+4V24 "="{boolean} 4>28 4>32 2|14s27 30s27 69s27
+4*28 K1{2+14}
+4*32 K2{2+14}
+5V24 "<"{boolean} 5>28 5>32
+5*28 K1{2+14}
+5*32 K2{2+14}
+6V24 ">"{boolean} 6>28 6>32 2|17s27 32s27 87s27
+6*28 K1{2+14}
+6*32 K2{2+14}
+7V23 Key_To_String{string} 7>38
+7*38 K{2+14}
+8k9*ABB_Maps_G 2z14 3z14 4z24 5z24 6z24 7z23 31E14 39l5 39e15 2|4b14 127l5
+. 127t15
+9P14*Map 11r26 15r33 19r36 23r35 25r33 26r32 27r34 28r33 28r45 29r34 29r46
+. 32c14 36r23 37r24 2|7r26 24r33 39r29 57r69 59r36 62r24 94r35 103r33 108r32
+. 113r34 118r33 118r45 123r34 123r46
+11U19*Get 11>23 12>17 12<35 13<17 2|7b19 18s25 20s25 22l13 22t16
+11p23 M{9P14} 2|7b23 12r20 14r29 15r34 17r29 18r29 20r29
+12*17 Key{2+14} 2|8b17 14r23 17r23 18r38 20r37
+12*35 Value{3+14} 2|9b17 15m25 18m43 20m42
+13b17 Success{boolean} 2|10b17 13m25 16m25 18m50 20m49
+15U19*Put 15=23 16>17 17>17 2|24b19 33s25 35s25 37l13 37t16
+15p23 M{9P14} 2|24b23 28r20 29m25 30r29 31r25 32r29 33r29 35r29
+16*17 Key{2+14} 2|25b17 29r45 30r23 32r23 33r38 35r37
+17*17 Value{3+14} 2|26b17 29r50 31r36 33r43 35r42
+19U19*Delete 19=26 20>17 21<17 2|59b19 84s41 88s25 90s25 92l13 92t19
+19p26 M{9P14} 2|59b26 67r20 69r29 71r28 72r42 73m38 74m33 75r31 76r42 77m38
+. 78m33 80r37 82r41 83r41 84r48 87r29 88r32 90r32
+20*17 Key{2+14} 2|60b17 69r23 87r23 88r41 90r40
+21b17 Success{boolean} 2|61b17 68m25 70m25 84m66 88m46 90m45
+23V18*Map_Length{natural} 23>29 2|94b18 99s36 99s57 101l13 101t23
+23p29 M{9P14} 2|94b29 96r20 99r47 99r68
+25V18*Is_Empty{boolean} 25>27 2|103b18 106l13 106t21
+25p27 M{9P14} 2|103b27 105r24
+26V18*Get_Key{2+14} 26>26 2|108b18 111l13 111t20
+26p26 M{9P14} 2|108b26 110r24
+27V18*Get_Value{3+14} 27>28 2|113b18 116l13 116t22
+27p28 M{9P14} 2|113b28 115r24
+28V18*Get_Left{9P14} 28>27 2|118b18 121l13 121t21
+28p27 M{9P14} 2|118b27 120r24
+29V18*Get_Right{9P14} 29>28 2|123b18 126l13 126t22
+29p28 M{9P14} 2|123b28 125r24
+31R14 Tree_Node 32r28 33c14 38e19 2|29r34 57r58
+34*17 Key{2+14} 2|14r31 17r31 30r31 32r31 49r42 69r31 82m43 87r31 110r26
+35*17 Value{3+14} 2|15r36 31m27 50r44 83m43 115r26
+36p17 Left{9P14} 2|20r31 35m31 47r30 52r39 71r30 76r44 90m34 99r49 120r26
+37p17 Right{9P14} 2|18r31 33m31 72r44 75r33 80r39 84m50 88m34 99r70 125r26
+X 2 abb_maps_g.adb
+5K17 ATIO=5:34
+39U19 Min 39b19 39>23 40<17 41<17 42<17 52s33 55l13 55t16 80s33
+39p23 M{1|9P14} 44r20 47r28 49r40 50r42 52r37
+40*17 Key{1|2+14} 49m33 52m45
+41*17 Value{1|3+14} 50m33 52m50
+42b17 Success{boolean} 45m25 48m33 52m57
+57U19 Free[10|20] 73s33 77s33
+62p17 P_Aux{1|9P14} 72m33 74r38 76m33 78r38
+63*17 Min_Key{1|2+14} 80m46 82r50 84r57
+64*17 Min_Value{1|3+14} 80m55 83r52
+65b17 Min_Success{boolean} 80m66 81r36
+X 3 ada.ads
+16K9*Ada 2|1r6 2r6 5r30 57r31 3|20e8
+X 8 a-textio.ads
+49K13*Text_IO 2|1w10 5r34 8|471e16
+X 10 a-uncdea.ads
+20u15*Unchecked_Deallocation 2|2w10 57r35
+
